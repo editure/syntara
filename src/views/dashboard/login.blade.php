@@ -1,7 +1,7 @@
 @extends(Config::get('syntara::views.master'))
 
 @section('content')
-<script type="text/javascript" src="{{ asset('packages/mrjuliuss/syntara/assets/js/dashboard/login.js') }}"></script>
+<script type="text/javascript" src="{{ secure_asset('packages/mrjuliuss/syntara/assets/js/dashboard/login.js') }}"></script>
 <div class="container" id="main-container">
     <div class="row" style="margin-top: 20px;">
         <div class="col-lg-2 col-lg-offset-5">
