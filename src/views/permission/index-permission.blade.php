@@ -1,7 +1,7 @@
 @extends(Config::get('syntara::views.master'))
 
 @section('content')
-<script src="{{ asset('packages/mrjuliuss/syntara/assets/js/dashboard/permission.js') }}"></script>
+<script src="{{ secure_asset('packages/mrjuliuss/syntara/assets/js/dashboard/permission.js') }}"></script>
 @include('syntara::layouts.dashboard.confirmation-modal',  array('title' => trans('syntara::all.confirm-delete-title'), 'content' => trans('syntara::all.confirm-delete-message'), 'type' => 'delete-permission'))
 <div class="container" id="main-container">
     <div class="row">
